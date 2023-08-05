@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 dark:bg-gray-800 ">
+    <div class="w-10/12 mx-auto bg-violet-950 dark:bg-violet-900 rounded-lg mt-16">
+        <h1 class="mx-auto text-white text-4xl text-center">Weather Cities Project</h1>
+        <div class="flex w-3/5 mx-auto justify-center mt-4">
+            <div class="flex items-center  rounded-lg shadow-md w-3/4  mx-auto bg-gray-900 dark:bg-gray-800">
+                <img class="pl-4" src="magnifyingglass.png" alt="">
+                <input
+                  type="text"
+                  class=" w-full h-full  px-4 py-2 rounded-lg focus:outline-none bg-gray-900 text-white border-solid border-2 border-gray-900 dark:bg-gray-800"
+                  placeholder="Search..."
+                />
+                
+              </div>
+              <div class="w-1/4 ml-2">
+                <button class="bg-gray-900 h-full rounded-md w-24 text-white">Add City</button>
+              </div>
+        </div>
+        <div class="w-11/12  mx-auto flex flex-wrap  gap-2 mt-4" id="container" >
+           
+        </div>
+    
+      
+    <script src="script.js"></script>
+</body>
+</html>
